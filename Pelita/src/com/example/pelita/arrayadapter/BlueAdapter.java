@@ -1,6 +1,6 @@
 package com.example.pelita.arrayadapter;
 
-
+//asdasdas asdasd
 import java.util.ArrayList;
 
 import com.example.pelita.R;
