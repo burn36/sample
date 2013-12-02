@@ -1,0 +1,156 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="mac" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="180dp"
+                android:layout_height="50dp" >
+
+                <com.example.pelita.kelas.NewTextView
+                    android:id="@+id/text1"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:text="Device1" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/alrm1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:background="@drawable/alarms"
+                    android:gravity="center_vertical" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/Device1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:background="@drawable/buttonsend" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="180dp"
+                android:layout_height="40dp" >
+
+                <com.example.pelita.kelas.NewTextView
+                    android:id="@+id/text2"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:text="Device2" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/alrm2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:background="@drawable/alarms"
+                    android:gravity="center_vertical" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/Device2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:background="@drawable/buttonsend" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="180dp"
+                android:layout_height="40dp" >
+
+                <com.example.pelita.kelas.NewTextView
+                    android:id="@+id/text3"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:text="Device3" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/alrm3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:background="@drawable/alarms"
+                    android:gravity="center_vertical" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/Device3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:background="@drawable/buttonsend" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="180dp"
+                android:layout_height="40dp" >
+
+                <com.example.pelita.kelas.NewTextView
+                    android:id="@+id/text4"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:text="Device4" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/alrm4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:background="@drawable/alarms"
+                    android:gravity="center_vertical" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/Device4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:background="@drawable/buttonsend" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="180dp"
+                android:layout_height="40dp" >
+
+                <com.example.pelita.kelas.NewTextView
+                    android:id="@+id/text5"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:text="Device5" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/alrm5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="2"
+                    android:background="@drawable/alarms"
+                    android:gravity="center_vertical" />
+
+                <com.example.pelita.kelas.NewButton
+                    android:id="@+id/Device5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="3"
+                    android:background="@drawable/buttonsend" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>
