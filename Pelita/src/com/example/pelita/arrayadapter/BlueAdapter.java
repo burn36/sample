@@ -1,6 +1,6 @@
 package com.example.pelita.arrayadapter;
 
-//asdasdas asdasd
+//asdasdas asdasd sdfd
 import java.util.ArrayList;
 
 import com.example.pelita.R;
@@ -13,6 +13,9 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class BlueAdapter extends ArrayAdapter<String> {
+	public void sadasd(){
+		
+	}
 	public BlueAdapter(Context context, int textViewResourceId,
 			ArrayList<String> objects) {
 		super(context, textViewResourceId, objects);
