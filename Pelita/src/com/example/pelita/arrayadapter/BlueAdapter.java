@@ -19,6 +19,7 @@ public class BlueAdapter extends ArrayAdapter<String> {
                 // TODO Auto-generated constructor stub
                 this.List = objects;
         }
+        public void merger(){}
 
         private ArrayList<String> List;
         
