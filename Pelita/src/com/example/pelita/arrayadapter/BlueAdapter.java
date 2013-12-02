@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class BlueAdapter extends ArrayAdapter<String> {
-	public void sadasd(){
+	public void sadasdssd(){
 		
 	}
 	public BlueAdapter(Context context, int textViewResourceId,
